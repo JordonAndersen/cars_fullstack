@@ -14,6 +14,7 @@ class Car(models.Model):
     manufacture_year =  models.IntegerField(null=False, blank=False)
     number_of_doors = models.IntegerField(null=False, blank=False, validators=[validate_max_door_number, validate_min_door_number])
     mileage = models.IntegerField(null=False, blank=False)
+    image =models.URLField(blank=True)
 
 
     def __str__(self):

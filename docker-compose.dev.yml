@@ -2,8 +2,6 @@
 # The "development" compose file builds 
 # the images locally
 #########################################
-
-
 services:
   api:
     build: ./backend
