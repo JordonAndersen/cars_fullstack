@@ -1,0 +1,147 @@
+[
+    {
+        "number_of_owners": 1,
+        "car_model_id": {
+            "id": 4,
+            "make": "This Guy",
+            "model": "Blue Falcon"
+        },
+        "registration_number": "HA",
+        "manufacture_year": 2,
+        "number_of_doors": 2,
+        "mileage": 2,
+        "image": "https://challengecoinnation.com/cdn/shop/products/Blue-falcon-pvc-patch2_540x.jpg?v=1639089502"
+    },
+    {
+        
+        "number_of_owners": 1,
+        "car_model_id": {
+            "id": 1,
+            "make": "Kia",
+            "model": "Mini Van"
+        },
+        "registration_number": "2134335",
+        "manufacture_year": 4,
+        "number_of_doors": 1,
+        "mileage": 1,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/2025-kia-carnival-front-three-quarters-653baf158928c.jpg?crop=0.709xw:0.598xh;0.0374xw,0.207xh&resize=2048:*"
+    },
+    {
+        "number_of_owners": 3,
+        "car_model_id": {
+            "id": 2,
+            "make": "Dodge",
+            "model": "Truck"
+        },
+        "registration_number": "asdf",
+        "manufacture_year": 41356,
+        "number_of_doors": 1,
+        "mileage": 654654,
+        "image": "https://www.velocityrestorations.com/assets/media/530r-dodge-crew-cab-1920x914.webp"
+    },
+    {
+        "number_of_owners": 2,
+        "car_model_id": {
+            "id": 3,
+            "make": "Kia",
+            "model": "Truck"
+        },
+        "registration_number": "1526",
+        "manufacture_year": 987,
+        "number_of_doors": 1,
+        "mileage": 3,
+        "image": "https://hips.hearstapps.com/hmg-prod/images/kia-tasman-pickup-camouflage-662709022c687.jpg?crop=0.755xw:0.638xh;0.136xw,0.207xh&resize=1200:*"
+    },
+    {
+        "number_of_owners": 1,
+        "car_model_id": {
+            "id": 4,
+            "make": "This Guy",
+            "model": "Blue Falcon"
+        },
+        "registration_number": "HA",
+        "manufacture_year": 2,
+        "number_of_doors": 2,
+        "mileage": 2,
+        "image": "https://challengecoinnation.com/cdn/shop/products/Blue-falcon-pvc-patch2_540x.jpg?v=1639089502"
+    },
+    {
+        "number_of_owners": 2,
+        "car_model_id": {
+          "id": 5,
+          "make": "Toyota",
+          "model": "Corolla"
+        },
+        "registration_number": "7890",
+        "manufacture_year": 2020,
+        "number_of_doors": 4,
+        "mileage": 30000,
+        "image": "https://www.ebaymotorsblog.com/motors/blog/wp-content/uploads/2023/02/1969_Toyota_Corolla_right_front_profile-600x400-740x480.jpg"
+      },
+      {
+        "number_of_owners": 1,
+        "car_model_id": {
+          "id": 6,
+          "make": "Honda",
+          "model": "Civic"
+        },
+        "registration_NUMBER": "ABC123",
+        "manufacture_year": 2018,
+        "number_of_doors": 4,
+        "mileage": 50000,
+        "image": "https://www.slashgear.com/img/gallery/every-generation-of-honda-civic-ranked-worst-to-best/intro-1694722229.webp"
+      },
+      {
+        "number_of_owners": 0,
+        "car_model_id": {
+          "id": 7,
+          "make": "Ford",
+          "model": "Mustang"
+        },
+        "registration_number": "BRANDNEW",
+        "manufacture_year": 2024,
+        "number_of_doors": 2,
+        "mileage": 10,
+        "image": "https://b1659141.smushcdn.com/1659141/wp-content/uploads/2012/07/1968-revology-shelby-gt500-kr-212-212.jpg?lossy=1&strip=1&webp=1"
+      },
+      {
+        "number_of_owners": 3,
+        "car_model_id": {
+          "id": 8,
+          "make": "Nissan",
+          "model": "Sentra"
+        },
+        "registration_number": "123QWE",
+        "manufacture_year": 2015,
+        "number_of_doors": 4,
+        "mileage": 78000,
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/2020_Nissan_Sentra_SV_in_Electric_Blue_Metallic%2C_front_left.jpg/280px-2020_Nissan_Sentra_SV_in_Electric_Blue_Metallic%2C_front_left.jpg"
+      },
+      {
+        "number_of_owners": 2,
+        "car_model_id": {
+          "id": 9,
+          "make": "Chevrolet",
+          "model": "Silverado"
+        },
+        "registration_number": "TRUCK",
+        "manufacture_year": 2010,
+        "number_of_doors": 4,
+        "mileage": 120000,
+        "image": "https://media.ed.edmunds-media.com/chevrolet/silverado-1500/2023/oem/2023_chevrolet_silverado-1500_crew-cab-pickup_high-country_fq_oem_1_815.jpg"
+      },
+      {
+        "number_of_owners": 1,
+        "car_model_id": {
+          "id": 10,
+          "make": "Hyundai",
+          "model": "Elantra"
+        },
+        "registration_number": "KOREA",
+        "manufacture_year": 2017,
+        "number_of_doors": 4,
+        "mileage": 45000,
+        "image": "https://di-uploads-development.dealerinspire.com/gettelhyundaioflakewood/uploads/2023/03/2021-Hyundai-Elantra-driving-on-road.jpeg"
+      }
+    
+]

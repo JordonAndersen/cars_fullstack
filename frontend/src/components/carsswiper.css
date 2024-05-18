@@ -1,0 +1,33 @@
+.swiper{
+    position: absolute;
+   top: 10%; /* Adjust for vertical centering if needed */
+    left: 50%;
+    transform: translateX(-50%);
+  
+
+  
+}
+
+.CarSwiper {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60vw;
+    
+   
+
+}
+
+.swiper-slide{
+    background-position: center;
+    background-size: cover;
+    width: 40%;
+    height: 400px;
+    
+}
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+}
