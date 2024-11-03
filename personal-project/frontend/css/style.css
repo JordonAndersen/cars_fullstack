@@ -1,0 +1,151 @@
+/* body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #a08383;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+main {
+  padding: 20px;
+}
+
+button {
+  background-color: #879e88;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+ */
+
+ #pokiemon {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 16px;
+  background-color: white;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 16px;
+  text-align: center;
+}
+
+body{
+  background-color: black;
+}
+.ball{
+  position: relative;
+  border: 2px solid 	#222224;
+  color: white;
+  background-color: 	#f0f0f0;
+  margin: 25px;
+  height: 250px;
+  width: 250px;
+  font-size: 1.5rem;
+  padding: 15px;
+  border-radius: 50%; 
+  z-index: 10;    
+  animation-duration: 1s;
+animation-iteration-count: infinite;
+transform-origin: bottom;       
+}
+
+
+
+h1{
+  color: white;
+  text-transform: uppercase;
+  text-shadow:3px 2px #cc0000;
+  line-height: 1.5;
+}
+
+.innercirclesml{
+  position: relative;
+  text-align: center;
+  background-color: #f0f0f0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  z-index: 3;
+  translate: 20% 15% ;
+  border:3px solid #222224;
+
+}
+
+.line{
+  background-color: #222224;
+  height: 5px;
+  width: 240px;
+  translate: 0% 800%;
+  border:5px solid #222224;
+  
+
+}
+
+
+.slightlycirclesml{
+  position: relative;
+  text-align: center;
+  background-color: #f0f0f0;
+  height: 75px;
+  width: 75px;
+  border-radius: 50%;
+  z-index: 2;
+  translate: 12.5% 10%;
+  border:3px solid #222224;
+
+}
+
+.darkcircleslightlycirclesml{
+  position: relative;
+  text-align: center;
+  background-color: #222224;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  z-index: 2;
+  translate: 100% -50%;
+  border:3px solid #222224;
+
+}
+.halfred{
+  width: 250px;
+  height: 125px;
+  background-color: #f00000;
+  translate: -7% -50%;
+   border-radius: 10rem 10rem 0 0;
+}
+
+
+.bounce:hover {
+animation-name: bounce;
+animation-timing-function: ease;
+}
+@keyframes bounce {
+0%   { transform: translateY(0); }
+50%  { transform: translateY(-50px); }
+100% { transform: translateY(0); }
+}

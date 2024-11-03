@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>test html</title>
+    <style>
+        body {
+            background-color: #3B4CCA;
+        }
+
+
+        .gameboycontainer {
+
+            height: 45vh;
+            width: 32.5vh;
+            border-radius: 5% 5% 50% 50% / 5% 5% 10% 10%;
+            background-color: #fab009;
+            margin-top: 1vh;
+            top: 50%;
+            left: 50%;
+            border: 2px solid;
+        }
+
+        .canvascontainer {
+
+            height: 22.5vh;
+            width: 28vh;
+            border-radius: 5% 5% 35% 35% / 5% 5% 20% 20%;
+            background-color: #000;
+            margin-top: 5vh;
+            top: 50%;
+            left: 50%;
+            translate: 7.5% -10%;
+
+        }
+
+        img {
+
+            height: 30px;
+            width: auto;
+            top: 50%;
+            left: 50%;
+            translate: 150% -85%;
+        }
+
+        .redcircle {
+            height: 25px;
+            width: 25px;
+            top: 50%;
+            left: 50%;
+            border-radius: 50%;
+            border: 1px solid #000;
+            background-color: #e84671;
+            translate: 850% 0%;
+        }
+
+        .redcircle p {
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            translate: 0% -75%;
+            color: #000;
+
+        }
+
+        .bluecircle {
+
+            height: 25px;
+            width: 25px;
+            top: 50%;
+            left: 50%;
+            border-radius: 50%;
+            border: 1px solid #000;
+            background-color: #35aa6e;
+            translate: 700% -10%;
+        }
+
+        .bluecircle p {
+            top: 50%;
+            left: 50%;
+            text-align: center;
+            translate: 0% -75%;
+            color: #000;
+
+        }
+
+        .cross {
+            background: #1b45b2;
+            height: 55px;
+            width: 12.5px;
+            translate: 450% -90%;
+
+            &::after {
+                background: #1b45b2;
+                content: '';
+                height: 12.5px;
+                left: -20px;
+                position: absolute;
+                top: 21px;
+                width: 55px;
+
+            }
+        }
+
+        .greybuttonleft {
+            height: 5px;
+            width: 30px;
+            top: 50%;
+            left: 50%;
+            border-radius: 100%;
+            background-color: #43393d;
+            translate: 300% -175%;
+        }
+
+        .greybuttonright {
+            height: 5px;
+            width: 30px;
+            top: 50%;
+            left: 50%;
+            border-radius: 100%;
+            background-color: #43393d;
+            translate: 250% 0%;
+        }
+
+        /* .triangle {
+            width: 0;
+            height: 0;
+        }
+                
+.triangle .triangle-up {
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid #000;
+  
+
+}
+
+.triangle .triangle-down {
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-top: 100px solid #32557f;
+}
+
+.triangle .triangle-left {
+  border-top: 50px solid transparent;
+  border-right: 100px solid #32557f;
+  border-bottom: 50px solid transparent;
+}
+
+.triangle .triangle-right {
+  border-top: 50px solid transparent;
+  border-left: 100px solid #32557f;
+  border-bottom: 50px solid transparent;
+} */
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+
+
+    <div class="gameboycontainer">
+        <div class="canvascontainer">
+            <p style="color: white; text-align: center;">Play Now</p>
+        </div>
+        <div class="redcircle">
+            <p>A</p>
+        </div>
+        <div class="bluecircle">
+            <p>B</p>
+        </div>
+        <div class="cross">
+
+        </div>
+        <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png">
+        <div class="greybuttonleft">
+            <div class="greybuttonright"></div>
+        </div>
+
+    </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
